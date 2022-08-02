@@ -1,0 +1,112 @@
+:root {
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    font-size: 10px;
+    background-color: var(--Paleblue);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 10px;
+    color: var(--Desaturatedblue);
+    font-weight: 500;
+}
+
+.big-card {
+    background-color: #fff;
+    width: 22rem;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.bg-top {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.about {
+    padding: 10px 35px;
+}
+
+h5 {
+    color: var(--Darkblue);
+}
+
+.box {
+    display: flex;
+    background-color: var(--Verypaleblue);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: auto;
+    width: 100%;
+}
+
+.logo-music {
+    width: 40px;
+    padding: 10px;
+
+}
+
+p.music-info-top {
+    color: var(--Darkblue);
+    font-weight: 700;
+    font-size: 10px;
+    padding: 10px;
+}
+
+p.price {
+    color: var(--Desaturatedblue);
+    font-weight: 300;
+    font-size: 10px;
+}
+
+a {
+    font-size: 10px;
+
+}
+
+.change {
+    padding: 10px;
+}
+
+.pay {
+    color: var(--Paleblue);
+    background-color: var(--Brightblue);
+    font-size: 10px;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 3px 3px var(--Paleblue);
+    margin-bottom: 20px;
+}
+
+.cancle {
+    color: var(--Desaturatedblue);
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    right: 40%;
+
+}
+
+@media only screen and (max-width: 345px) {
+    
+}
